@@ -16,7 +16,7 @@ from educhain import Educhain, LLMConfig
 from langchain_openai import ChatOpenAI
 
 # Set the OPENAI_API_KEY to the OpenRouter key for EduChain
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 # Initialize EduChain with OpenRouter DeepSeek model
 deepseek_model = ChatOpenAI(
