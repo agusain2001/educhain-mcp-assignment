@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "educhain": {
+      "command": "python3.11",
+      "args": ["/home/ubuntu/mcp_educhain_server.py"],
+      "env": {
+        "OPENAI_API_KEY": "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"
+      }
+    }
+  }
+}
+

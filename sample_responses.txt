@@ -1,0 +1,133 @@
+Sample Commands and Responses for EduChain MCP Server
+=====================================================
+
+This file contains sample test commands and their corresponding responses from the EduChain MCP server.
+
+1. GENERATE MULTIPLE CHOICE QUESTIONS
+=====================================
+
+Command: "Generate 5 multiple-choice questions on Python loops."
+
+Sample Response:
+{
+  "questions": [
+    {
+      "question": "What is the output of the following Python code?\n\nfor i in range(3):\n    print(i, end=' ')",
+      "answer": "0 1 2",
+      "explanation": "The loop iterates through range(3), which produces values 0, 1, and 2. The end=' ' parameter makes print() use a space instead of a newline.",
+      "options": [
+        "0 1 2",
+        "1 2 3",
+        "0 1 2 3",
+        "Error"
+      ]
+    },
+    {
+      "question": "Which loop is best for iterating over a list in Python?",
+      "answer": "for loop",
+      "explanation": "The for loop is the most Pythonic way to iterate over sequences like lists, as it's more readable and efficient.",
+      "options": [
+        "while loop",
+        "for loop",
+        "do-while loop",
+        "repeat loop"
+      ]
+    }
+  ]
+}
+
+2. GENERATE LESSON PLAN
+=======================
+
+Command: "Provide a lesson plan for teaching algebra."
+
+Sample Response:
+{
+  "title": "Basic Algebra",
+  "duration": "45 minutes",
+  "grade_level": "Intermediate",
+  "learning_objectives": [
+    "Understand basic algebraic concepts",
+    "Solve simple linear equations",
+    "Apply algebraic thinking to real-world problems"
+  ],
+  "lesson_structure": {
+    "introduction": "Introduction to variables and expressions (10 minutes)",
+    "main_content": "Solving linear equations step by step (25 minutes)",
+    "practice": "Guided practice with sample problems (8 minutes)",
+    "conclusion": "Summary and homework assignment (2 minutes)"
+  },
+  "materials_needed": [
+    "Whiteboard/blackboard",
+    "Calculator",
+    "Practice worksheets"
+  ]
+}
+
+3. GENERATE FLASHCARDS
+======================
+
+Command: "Generate flashcards for Python data types."
+
+Sample Response:
+{
+  "questions": [
+    {
+      "question": "What data type is used to store whole numbers in Python?",
+      "answer": "int",
+      "explanation": "The int data type is used for integers (whole numbers) in Python.",
+      "options": [
+        "int",
+        "float",
+        "str",
+        "bool"
+      ]
+    },
+    {
+      "question": "Which data type would you use to store 'Hello World' in Python?",
+      "answer": "str",
+      "explanation": "Strings (str) are used to store text data in Python.",
+      "options": [
+        "int",
+        "float",
+        "str",
+        "list"
+      ]
+    }
+  ]
+}
+
+4. SERVER STATUS AND CAPABILITIES
+=================================
+
+Status Resource (educhain://status):
+"EduChain MCP Server is running and ready to generate educational content."
+
+Capabilities Resource (educhain://capabilities):
+{
+  "tools": [
+    "generate_mcqs - Generate multiple choice questions",
+    "generate_lesson_plan - Generate lesson plans", 
+    "generate_flashcards - Generate flashcards"
+  ],
+  "supported_question_types": [
+    "Multiple Choice",
+    "Short Answer",
+    "True/False",
+    "Fill in the Blank"
+  ],
+  "supported_difficulty_levels": [
+    "Easy",
+    "Medium",
+    "Hard"
+  ]
+}
+
+TESTING NOTES:
+==============
+- All tools successfully generate educational content using the DeepSeek model via OpenRouter
+- The server properly handles different difficulty levels and question types
+- Resources provide useful information about server capabilities
+- The MCP protocol integration works correctly with proper tool and resource definitions
+- Error handling is implemented for API failures or invalid inputs
+

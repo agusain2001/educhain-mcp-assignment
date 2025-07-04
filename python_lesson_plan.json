@@ -1,0 +1,165 @@
+{
+  "title": "Python Programming Basics",
+  "subject": "Computer Science",
+  "learning_objectives": [
+    "Understand and explain basic Python syntax and data types (Remember & Understand).",
+    "Apply Python concepts to write simple programs (Apply & Analyze).",
+    "Create a small project using Python, demonstrating problem-solving skills (Evaluate & Create)."
+  ],
+  "lesson_introduction": "Welcome to the world of Python programming! Did you know that Python is used by companies like Google, Netflix, and NASA? Today, we'll explore how Python powers real-world applications, from building websites to analyzing data. By the end of this lesson, you'll write your first Python program and see how coding can solve everyday problems.",
+  "main_topics": [
+    {
+      "title": "Introduction to Python",
+      "subtopics": [
+        {
+          "title": "What is Python?",
+          "key_concepts": [
+            {
+              "type": "definition",
+              "content": "Python is a high-level, interpreted programming language known for its readability and versatility."
+            },
+            {
+              "type": "example",
+              "content": "Python is used in web development (Django), data science (Pandas), and artificial intelligence (TensorFlow)."
+            }
+          ],
+          "discussion_questions": [
+            {
+              "question": "Why do you think Python is a popular choice for beginners in programming?"
+            }
+          ],
+          "hands_on_activities": [
+            {
+              "title": "Python Installation and Hello World",
+              "description": "Install Python and write a simple 'Hello, World!' program to understand the basic syntax."
+            }
+          ],
+          "reflective_questions": [
+            {
+              "question": "What challenges did you face while writing your first Python program, and how did you overcome them?"
+            }
+          ],
+          "assessment_ideas": [
+            {
+              "type": "quiz",
+              "description": "A short quiz on Python's features and basic syntax."
+            }
+          ]
+        },
+        {
+          "title": "Variables and Data Types",
+          "key_concepts": [
+            {
+              "type": "definition",
+              "content": "Variables are containers for storing data values. Python has various data types like integers, floats, strings, and booleans."
+            },
+            {
+              "type": "example",
+              "content": "Example: `name = 'Alice'` (string), `age = 25` (integer), `price = 19.99` (float)."
+            }
+          ],
+          "discussion_questions": [
+            {
+              "question": "How do different data types help in solving real-world problems?"
+            }
+          ],
+          "hands_on_activities": [
+            {
+              "title": "Variable Practice",
+              "description": "Create variables to store personal information (name, age, etc.) and print them."
+            }
+          ],
+          "reflective_questions": [
+            {
+              "question": "Why is it important to choose the correct data type for a variable?"
+            }
+          ],
+          "assessment_ideas": [
+            {
+              "type": "written task",
+              "description": "Write a paragraph explaining the importance of variables and data types in programming."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Control Structures",
+      "subtopics": [
+        {
+          "title": "Conditional Statements",
+          "key_concepts": [
+            {
+              "type": "definition",
+              "content": "Conditional statements (if, elif, else) allow the program to make decisions based on conditions."
+            },
+            {
+              "type": "example",
+              "content": "Example: Checking if a number is positive, negative, or zero using `if-elif-else`."
+            }
+          ],
+          "discussion_questions": [
+            {
+              "question": "Can you think of a real-life scenario where conditional statements would be useful?"
+            }
+          ],
+          "hands_on_activities": [
+            {
+              "title": "Grade Calculator",
+              "description": "Write a program that assigns a grade (A, B, C, etc.) based on a student's score."
+            }
+          ],
+          "reflective_questions": [
+            {
+              "question": "How do conditional statements improve the functionality of a program?"
+            }
+          ],
+          "assessment_ideas": [
+            {
+              "type": "project",
+              "description": "Create a simple decision-making program (e.g., a quiz or a weather app)."
+            }
+          ]
+        },
+        {
+          "title": "Loops",
+          "key_concepts": [
+            {
+              "type": "definition",
+              "content": "Loops (for, while) allow repetitive execution of a block of code."
+            },
+            {
+              "type": "example",
+              "content": "Example: Using a `for` loop to print numbers from 1 to 10."
+            }
+          ],
+          "discussion_questions": [
+            {
+              "question": "What are the advantages of using loops in programming?"
+            }
+          ],
+          "hands_on_activities": [
+            {
+              "title": "Multiplication Table",
+              "description": "Write a program to print the multiplication table of a given number using loops."
+            }
+          ],
+          "reflective_questions": [
+            {
+              "question": "How would you explain the difference between `for` and `while` loops to a peer?"
+            }
+          ],
+          "assessment_ideas": [
+            {
+              "type": "quiz",
+              "description": "A quiz on loop syntax and practical applications."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "learning_adaptations": "For younger students (grades 6-8), focus on visual programming tools like Turtle graphics. For older students (grades 9-12), introduce more complex projects like data analysis or web scraping.",
+  "real_world_applications": "Python is used in diverse fields like web development (Django, Flask), data science (Pandas, NumPy), artificial intelligence (TensorFlow, PyTorch), and automation. Careers include Software Developer, Data Scientist, and AI Engineer. Future learning paths: Advanced Python, Algorithms, and Machine Learning.",
+  "ethical_considerations": "Discuss the ethical implications of programming, such as data privacy, algorithmic bias, and the environmental impact of large-scale computing. Encourage students to think about how their code can be used responsibly."
+}

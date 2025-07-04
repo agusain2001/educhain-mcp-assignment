@@ -1,0 +1,59 @@
+{
+  "questions": [
+    {
+      "question": "What is the correct way to declare a variable in Python?",
+      "answer": "variable_name = value",
+      "explanation": "In Python, variables are declared by assigning a value to a name using the equals sign (=).",
+      "options": [
+        "variable_name = value",
+        "var variable_name = value",
+        "variable_name := value",
+        "let variable_name = value"
+      ]
+    },
+    {
+      "question": "Which of the following is a valid Python data type?",
+      "answer": "All of the above",
+      "explanation": "Python supports several data types including integers, floats, strings, and lists.",
+      "options": [
+        "int",
+        "float",
+        "str",
+        "All of the above"
+      ]
+    },
+    {
+      "question": "What is the output of the following code snippet?\nprint(type(3.14))",
+      "answer": "<class 'float'>",
+      "explanation": "The type() function returns the class type of the argument passed to it. 3.14 is a floating-point number.",
+      "options": [
+        "<class 'int'>",
+        "<class 'float'>",
+        "<class 'str'>",
+        "<class 'double'>"
+      ]
+    },
+    {
+      "question": "Which keyword is used to define a function in Python?",
+      "answer": "def",
+      "explanation": "The 'def' keyword is used to define a function in Python.",
+      "options": [
+        "function",
+        "def",
+        "define",
+        "func"
+      ]
+    },
+    {
+      "question": "What will be the result of the following expression in Python?\n3 + 2 * 4",
+      "answer": "11",
+      "explanation": "Python follows the standard order of operations (PEMDAS/BODMAS), so multiplication is performed before addition.",
+      "options": [
+        "20",
+        "11",
+        "14",
+        "15"
+      ]
+    }
+  ]
+}
